@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 300" width="100%" style="display:block"><g font-family="Apple SD Gothic Neo" font-size="9.5" text-anchor="middle">
+<text x="180" y="14" font-weight="700">광고를 켠 시간과 끈 시간을 번갈아 비교</text>
+<g font-size="8.5">
+<rect x="10" y="24" width="52" height="26" fill="#0066cc"/><text x="36" y="41" fill="#fff">켬</text>
+<rect x="66" y="24" width="52" height="26" fill="#e5e8eb"/><text x="92" y="41">끔</text>
+<rect x="122" y="24" width="52" height="26" fill="#0066cc"/><text x="148" y="41" fill="#fff">켬</text>
+<rect x="178" y="24" width="52" height="26" fill="#e5e8eb"/><text x="204" y="41">끔</text>
+<rect x="234" y="24" width="52" height="26" fill="#0066cc"/><text x="260" y="41" fill="#fff">켬</text>
+<rect x="290" y="24" width="60" height="26" fill="#e5e8eb"/><text x="320" y="41">끔</text></g>
+<text x="180" y="66" fill="#6b7684" font-size="8.5">같은 시간대끼리 짝지어 시간당 이익을 비교 (손님을 나눌 수 없어 시간으로 나눔)</text>
+<line x1="20" y1="250" x2="340" y2="250" stroke="#191f28"/>
+<rect x="80" y="196" width="70" height="54" fill="#0066cc"/><text x="115" y="188" font-weight="700" fill="#0066cc">약 0.4</text><text x="115" y="266">광고로 1건 파는 비용</text>
+<rect x="210" y="90" width="70" height="160" fill="#0066cc"/><text x="245" y="82" font-weight="700" fill="#0066cc">1</text><text x="245" y="266">1건 팔 때 남는 마진</text>
+<text x="180" y="290" fill="#6b7684" font-size="8.5">클릭 수가 아니라 비용 대비 마진으로 판단 · 마진 ≥ 1.15 × 광고 1건 비용일 때만 켬</text>
+</g></svg>

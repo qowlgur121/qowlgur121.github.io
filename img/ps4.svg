@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 300" width="100%" style="display:block"><g font-family="Apple SD Gothic Neo" font-size="9.5" text-anchor="middle">
+<text x="10" y="14" text-anchor="start" font-weight="700" fill="#0066cc">BEFORE · 규칙 분류</text>
+<rect x="10" y="22" width="150" height="34" fill="#fff" stroke="#d1d6db"/><text x="85" y="36">"안녕하세요, 이런</text><text x="85" y="49">지원 받고 싶어요"</text>
+<line x1="160" y1="39" x2="190" y2="39" stroke="#b0b8c1"/>
+<rect x="190" y="22" width="70" height="34" fill="#fff" stroke="#d1d6db"/><text x="225" y="43">키워드 규칙</text>
+<line x1="260" y1="39" x2="280" y2="39" stroke="#b0b8c1"/>
+<rect x="280" y="22" width="70" height="34" fill="#ffffff" stroke="#191f28"/><text x="315" y="36" fill="#191f28">인사로 분류</text><text x="315" y="49" fill="#191f28">검색 건너뜀</text>
+<text x="10" y="92" text-anchor="start" font-weight="700" fill="#0066cc">AFTER · 의도 판단 후 경로 선택</text>
+<rect x="10" y="100" width="340" height="34" fill="#191f28"/><text x="180" y="114" fill="#fff" font-weight="700">LLM이 의도 + 지역 · 대상 · 분야 필터를 JSON으로 추출</text><text x="180" y="127" fill="#d1d6db" font-size="8.5">실패하거나 형식이 깨지면 규칙으로 폴백</text>
+<g fill="#f2f4f6" stroke="#d1d6db"><rect x="10" y="146" width="52" height="26"/><rect x="67" y="146" width="52" height="26"/><rect x="124" y="146" width="52" height="26"/><rect x="181" y="146" width="52" height="26"/><rect x="238" y="146" width="52" height="26"/><rect x="295" y="146" width="55" height="26"/></g>
+<g fill="#191f28" font-size="8.5"><text x="36" y="163">복지 검색</text><text x="93" y="163">시설</text><text x="150" y="163">통계</text><text x="207" y="163">대화 기억</text><text x="264" y="163">잡담</text><text x="322" y="163">메타</text></g>
+<line x1="36" y1="172" x2="36" y2="186" stroke="#b0b8c1"/>
+<rect x="10" y="186" width="340" height="26" fill="#fff" stroke="#d1d6db"/><text x="180" y="203">필터 + pgvector 검색 · 결과 없으면 필터를 단계적으로 완화</text>
+<line x1="180" y1="212" x2="180" y2="222" stroke="#b0b8c1"/>
+<rect x="10" y="222" width="340" height="26" fill="#fff" stroke="#d1d6db"/><text x="180" y="239">정렬: 적격 → 지역 → 신청 가능 → 연도 → 벡터 거리</text>
+<line x1="180" y1="248" x2="180" y2="258" stroke="#b0b8c1"/>
+<rect x="10" y="258" width="340" height="26" fill="#191f28"/><text x="180" y="275" fill="#fff">LLM 답변 · SSE 스트리밍 · 신청 방법과 출처 링크</text>
+</g></svg>
